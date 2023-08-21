@@ -1,0 +1,6 @@
+name: test_Mine_Note_Block12
+main: test_Mine_Note_Block12.ru.Main
+version: 1.0
+api-version: 1.13
+commands:
+   play_midi:

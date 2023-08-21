@@ -1,0 +1,6 @@
+name: VaultPermissions
+main: ru.vault_permissions.Main
+depend: [Vault]
+version: 1.4
+commands:
+   Vault_Permissions:

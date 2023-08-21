@@ -1,0 +1,6 @@
+name: VaultPermissions
+main: ru.vault_permissions.Main
+version: 1.7
+commands:
+   Vault_Permissions:
+   VP:

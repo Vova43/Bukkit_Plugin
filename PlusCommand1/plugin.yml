@@ -1,0 +1,5 @@
+name: PlusCommand
+main: ru.plus_command.Main
+version: 1.0
+commands:
+    command:
