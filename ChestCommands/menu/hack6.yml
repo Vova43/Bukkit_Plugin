@@ -1,0 +1,154 @@
+﻿######################
+#+                  +#
+#   MENU SETTINGS    #
+#+                  +#
+######################
+
+menu-settings:
+
+  # name - appears as the title - REQUIRED
+  name: '&f&lСундук #6'
+
+  # rows - the number of rows of the chest - REQUIRED
+  rows: 5
+
+  # command - OPTIONAL (you can remove this or set it to '')
+  # Bind multiple commands using ; (command: 'menu; m; me')
+  command: ''
+
+  # open-with-item - OPTIONAL
+  # The menu will open only right-clicking with orange wool [35:1]
+  open-with-item:
+    item-id: 399
+    left-click: false
+    right-click: true
+    data-value: 1
+
+
+######################
+#+                  +#
+#       ITEMS        #
+#+                  +#
+######################
+
+1:
+  COMMAND: ''
+  NAME: '&cНажмите для закрытия'
+  LORE: 
+  - ''
+  KEEP-OPEN: false
+  ID: '166'
+  POSITION-X: 2
+  POSITION-Y: 2
+3:
+  COMMAND: ''
+  NAME: '&cНажмите для закрытия'
+  LORE: 
+  - ''
+  KEEP-OPEN: false
+  ID: '166'
+  POSITION-X: 3
+  POSITION-Y: 2
+2:
+  COMMAND: ''
+  NAME: '&cНажмите для закрытия'
+  LORE: 
+  - ''
+  KEEP-OPEN: false
+  ID: '166'
+  POSITION-X: 4
+  POSITION-Y: 2
+4:
+  COMMAND: ''
+  NAME: '&cНажмите для закрытия'
+  LORE: 
+  - ''
+  KEEP-OPEN: false
+  ID: '166'
+  POSITION-X: 2
+  POSITION-Y: 3
+6:
+  COMMAND: ''
+  NAME: '&cНажмите для закрытия'
+  LORE: 
+  - ''
+  KEEP-OPEN: false
+  ID: '166'
+  POSITION-X: 3
+  POSITION-Y: 3
+hack1:
+  COMMAND: 'Console: bc &fИгрок &6{player} &fполучил с хака [&aВИП&f] - &6/hack&f; tell: &b&l** &fВы получили группу - [&aВИП&f]; Console: pex user {player} group set Vip'
+  NAME: '&b&l&n                              &r'
+  LORE:
+    - '&fВы получили привилегию - [&aВИП&f]'
+    - '&b&l&n                              &r'
+    - ''
+    - '&fИз данного сундука вам выпал'
+    - '[&aВИП&f], но может вам повезёт'
+    - '&fв другой раз?'
+    - ''
+    - '&b&l&n                              &r'
+    - '&fНажмите чтобы получить привилегию'
+    - '&b&l&n                              &r'
+    - ''
+  ID: 130
+  POSITION-X: 4
+  POSITION-Y: 3
+7:
+  COMMAND: ''
+  NAME: '&cНажмите для закрытия'
+  LORE: 
+  - ''
+  KEEP-OPEN: false
+  ID: '166'
+  POSITION-X: 2
+  POSITION-Y: 4
+8:
+  COMMAND: ''
+  NAME: '&cНажмите для закрытия'
+  LORE: 
+  - ''
+  KEEP-OPEN: false
+  ID: '166'
+  POSITION-X: 3
+  POSITION-Y: 4
+9:
+  COMMAND: ''
+  NAME: '&cНажмите для закрытия'
+  LORE: 
+  - ''
+  KEEP-OPEN: false
+  ID: '166'
+  POSITION-X: 4
+  POSITION-Y: 4
+info:
+  COMMAND: ''
+  NAME: '&f&l&n                                                                          '
+  LORE:
+  - ''
+  - '                             &c&l&nВНИМАНИЕ!&r'
+  - ''
+  - '&6Донатерам &fне рекомендуется использовать данный &6взлом,'
+  - '&fесть шанс что вы получите привилегии &6&nНИЖЕ&r &fсвоей и прежнюю'
+  - '&fВам не &6&l&nВЕРНУТ'
+  - ''
+  KEEP-OPEN: true
+  ID: '166'
+  POSITION-X: 8
+  POSITION-Y: 2
+info1:
+  COMMAND: ''
+  NAME: '&f&l&n                                                                          '
+  LORE:
+  - ''
+  - '&e&lПояснение:'
+  - ''
+  - '&fВыберите один из &d9 &fсундуков и нажмите на него'
+  - ''
+  - '&fИспользовать &dБАГ &fможно раз в &d30 &fминут.'
+  - ''
+  - '&f&l&n                                                                          '
+  KEEP-OPEN: true
+  ID: '339'
+  POSITION-X: 8
+  POSITION-Y: 4

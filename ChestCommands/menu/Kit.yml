@@ -1,0 +1,71 @@
+menu-settings:
+  name: 'Наборы'
+  rows: 3
+  command: 'kit;kits'
+kitstart:
+  COMMAND: 'kit start'
+  NAME: '&fПолучить набор игрока'
+  LORE:
+    - ''
+    - '&eДанный набор может получить любой игрок.'
+    - ''
+    - '&cОткат: 24 часа'
+  ID: '298'
+  POSITION-X: 2
+  POSITION-Y: 2
+kitbonus:
+  COMMAND: 'kit bonus'
+  NAME: '&fПолучить бонус'
+  LORE:
+    - ''
+    - '&eДанный набор может получить любой игрок.'
+    - ''
+    - '&cОткат: 24 часа'
+  ID: '302'
+  POSITION-X: 3
+  POSITION-Y: 2
+kitvip:
+  COMMAND: 'kit vip'
+  NAME: '&fПолучить набор &a&lVIP'
+  LORE:
+    - ''
+    - '&eДанный набор может получить только &a&lVIP &eи выше'
+    - ''
+    - '&cОткат: 7 дней'
+  ID: '314'
+  POSITION-X: 4
+  POSITION-Y: 2
+kitcreative:
+  COMMAND: 'kit creat'
+  NAME: '&fПолучить набор &a&lCREAT'
+  LORE:
+    - ''
+    - '&eДанный набор может получить только &a&lCREAT &eи выше'
+    - ''
+    - '&cОткат: 7 дней'
+  ID: '306'
+  POSITION-X: 6
+  POSITION-Y: 2
+kitmoderator:
+  COMMAND: 'kit moder'
+  NAME: '&fПолучить набор &a&lMODER'
+  LORE:
+    - ''
+    - '&eДанный набор может получить только &a&lMODER &eи выше'
+    - ''
+    - '&cОткат: 7 дней'
+  ID: '310'
+  POSITION-X: 7
+  POSITION-Y: 2
+kitglava:
+  COMMAND: 'kit boss'
+  NAME: '&fПолучить набор &6&lBOSS'
+  LORE:
+    - ''
+    - '&eДанный набор может получить только &6&lBOSS &eи выше'
+    - ''
+    - '&cОткат: 7 дней'
+  ID: '310'
+  ENCHANTMENT: 'sharpness, 5'
+  POSITION-X: 8
+  POSITION-Y: 2

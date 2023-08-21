@@ -1,0 +1,49 @@
+menu-settings:
+  name: '                 Работы'
+  rows: 6
+  command: 'job;jobs'
+jobs:
+  COMMAND: 'open:JobsJoin.yml'
+  NAME: '&eУтроиться на работу'
+  LORE:
+    - '&fНажмите, чтобы посмотреть'
+    - '&fвсе доступные профессии'
+  ID: '282'
+  POSITION-X: 2
+  POSITION-Y: 3
+statsjoin:
+  COMMAND: 'jobs stats'
+  NAME: '&bСтатистика'
+  LORE:
+    - '&fНажмите, чтобы посмотреть'
+    - '&fСтатистику своей профессии'
+  ID: '340'
+  POSITION-X: 4
+  POSITION-Y: 3
+35:
+  COMMAND: 'jobs info'
+  NAME: '&aЗарплата'
+  LORE:
+   - '&fПосмотреть какая зарплата у каждой из профессий'
+  ID: 322
+  POSITION-X: 6
+  POSITION-Y: 3
+startleave:
+  COMMAND: 'jobs leaveall'
+  NAME: '&cУволиться с работы'
+  LORE:
+    - '&fНажмите, чтобы уволиться'
+    - '&fСо всех ваших работ'
+  ID: '281'
+  POSITION-X: 8
+  POSITION-Y: 3
+leave:
+  COMMAND: 'menu'
+  NAME: '&cНазад'
+  LORE:
+    - '&fНажмите, чтобы вернуться'
+    - '&fв главное меню'
+  ID: '262'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 5

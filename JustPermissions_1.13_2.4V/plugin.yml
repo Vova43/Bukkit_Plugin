@@ -1,0 +1,5 @@
+name: JustPermissions
+main: ru.permissions.Main
+version: 2.4
+commands:
+   JustPerm:

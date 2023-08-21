@@ -1,0 +1,6 @@
+name: Auth
+main: ru.auth.Main
+version: 1.0
+commands:
+   register:
+   login:

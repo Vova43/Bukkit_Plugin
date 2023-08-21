@@ -1,0 +1,5 @@
+name: JustPermissions
+main: ru.permissions.Main
+version: 1.4
+commands:
+   pex1:

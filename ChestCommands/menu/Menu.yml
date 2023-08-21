@@ -1,0 +1,552 @@
+menu-settings:
+  name: '&8&lМеню'
+  rows: 6
+  command: 'menu'
+1:
+  COMMAND: 'donate'
+  NAME: ' &e&l[ϟ] &eП&fривилегии'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fПокупка донат привилегий на сайте:'
+    - '&e&l[ϟ] &f&nhosting-minecraft.ru&e (скидка 85%)'
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/donate'
+    - ''
+  ID: '382'
+  KEEP-OPEN: true
+  ENCHANTMENT: 'sharpness, 5'
+  POSITION-X: 8
+  POSITION-Y: 2
+2:
+  COMMAND: 'shop'
+  NAME: '&f &e&l[ϟ] &eМ&fагазин'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/shop'
+    - ''
+  ID: '266'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 2
+4:
+  COMMAND: 'clan'
+  NAME: '&f &e&l[ϟ] &eК&fланы'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/clan'
+    - ''
+  ID: '257'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 3
+5:
+  COMMAND: 'tell: &fВ разработке, простите'
+  NAME: ' &e&l[ϟ] &eР&fабота'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/jobs'
+    - ''
+  ID: '131'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 4
+6:
+  COMMAND: 'warp jail'
+  NAME: '&f &e&l[ϟ] &eТ&fюрьма'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/warp jail'
+    - ''
+  ID: '345'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 4
+8:
+  COMMAND: 'tell: &fЧто-бы написать вопрос, перейди в группу: &6&lhosting-minecraft.ru'
+  NAME: '&f &e&l[ϟ] &eП&fомощь'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - ''
+  ID: '54'  
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 3
+9:
+  COMMAND: 'craftheads'
+  NAME: '&f &e&l[ϟ] &eК&fупить голову'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/craftheads'
+    - ''
+  ID: '298'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 5
+10:
+  COMMAND: 'abilities'
+  NAME: '&f &e&l[ϟ] &eУ&fлучшить себя'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/abilities'
+    - ''
+  ID: '386'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 5
+11:
+  COMMAND: 'ah'
+  NAME: '&f &e&l[ϟ] &eР&fынок'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/ah'
+    - ''
+  ID: '260'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 5
+12:
+  COMMAND: 'contracts'
+  NAME: '&f &e&l[ϟ] &eК&fонтракты'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/contracts'
+    - ''
+  ID: '340'
+  KEEP-OPEN: false
+  POSITION-X: 5
+  POSITION-Y: 5
+13:
+  COMMAND: 'drinks'
+  NAME: '&f &e&l[ϟ] &eН&fапитки'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/drinks'
+    - ''
+  ID: '326'
+  KEEP-OPEN: false
+  POSITION-X: 3
+  POSITION-Y: 4
+14:
+  COMMAND: 'warp casino'
+  NAME: '&f &e&l[ϟ] &eК&fазино'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/warp casino'
+    - ''
+  ID: '264'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 4
+102:
+  COMMAND: 'warp case'
+  NAME: '&f &e&l[ϟ] &eК&fейсы'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/warp case'
+    - ''
+  ID: '310'
+  ENCHANTMENT: 'sharpness, 1'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 3
+15:
+  COMMAND: 'tpr'
+  NAME: '&f &e&l[ϟ] &eТ&fелепорт (рандомный)'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/tpr'
+    - ''
+  ID: 417
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 5
+16:
+  COMMAND: 'marry'
+  NAME: '&f &e&l[ϟ] &eС&fвадьбы'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/marry'
+    - ''
+  ID: 297
+  POSITION-X: 3
+  POSITION-Y: 2
+17:
+  COMMAND: 'warp lacky'
+  NAME: '&f &e&l[ϟ] &eЛ&fаки блок с донатом'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/warp lacky'
+    - ''
+  ID: 388
+  POSITION-X: 4
+  POSITION-Y: 2
+18:
+  COMMAND: 'free'
+  NAME: '&f &e&l[ϟ] &eБ&fесплатный донат'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/free'
+    - ''
+  ID: 384
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 2
+19:
+  COMMAND: 'warp parkour'
+  NAME: '&f &e&l[ϟ] &eА&fвто-паркур'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/warp parkour'
+    - ''
+  ID: 72
+  POSITION-X: 3
+  POSITION-Y: 3
+20:
+  COMMAND: 'tell: &fНадо писать вручную что-бы ты не получал больше плюхов: &7команда - &6/hack'
+  NAME: '&f &e&l[ϟ] &eВ&fзлом'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/hack'
+  KEEP-OPEN: true
+    - ''
+  ID: 266
+  POSITION-X: 5
+  POSITION-Y: 3
+21:
+  COMMAND: 'spawn'
+  NAME: '&f &e&l[ϟ] &eБ&fыстрый спавн'
+  LORE:
+    - ''
+    - '&e&l[ϟ] &fНажми чтобы посмотреть.'
+    - '&e&l[ϟ] &fКоманда: &e/spawn'
+    - ''
+  ID: 322
+  POSITION-X: 4
+  POSITION-Y: 4
+1111:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 1
+1112:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 1
+1113:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 1
+1114:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 2
+1115:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 2
+1116:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 3
+1117:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 3
+1118:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 4
+1119:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 4
+11110:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 5
+11111:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 5
+11112:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 7
+  POSITION-Y: 6
+11113:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 9
+  POSITION-Y: 6
+11114:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:15'
+  KEEP-OPEN: true
+  POSITION-X: 8
+  POSITION-Y: 6
+  
+1111111111111:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 1
+1111111111112:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 1
+111111111113:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 1
+111111114:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 1
+11111111115:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 1
+111111116:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 1
+11111111117:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 2
+111111118:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 2
+1111111119:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 3
+11111111111111111111111111111111111110:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 3
+11111111111111111111111111111111111111111:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 4
+1111111111111111111111111111111111111112:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 4
+1111111111111111111111111111111111111113:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 5
+111111111111111111111111111111111111111114:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 5
+11111111111111111111111111111111111111111111111111111111111111111119:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 1
+  POSITION-Y: 6
+1111111111111111111111111111111111111111111111111111111111111111111110:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 2
+  POSITION-Y: 6
+111111111111111111111111111111111111111111111111111111111111111111111:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 3
+  POSITION-Y: 6
+1111111111111111111111111111111111111111111111111111111111111111111112:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 4
+  POSITION-Y: 6
+1111111111111111111111111111111111111111111111111111111111111111111113:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 5
+  POSITION-Y: 6
+1111111111111111111111111111111111111111111111111111111111111111111114:
+  COMMAND: ''
+  NAME: ''
+  LORE:
+    - ''
+  ID: '160:1'
+  KEEP-OPEN: true
+  POSITION-X: 6
+  POSITION-Y: 6
+
